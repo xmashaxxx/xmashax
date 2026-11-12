@@ -1,11 +1,11 @@
 # Project notes for Claude Code
 
-This is the portfolio site for **XmashaX** (aerial and fire performer, character artist, maker). Plain HTML, CSS, and JS with no build step.
+This is the portfolio site for **xmasha** (aerial and fire performer, character artist, maker). Plain HTML, CSS, and JS with no build step.
 
 ## Hard rules
 
-- The only name used anywhere on the site is **XmashaX**. Never add a legal or full name to any page, metadata, alt text, comment, or commit message.
-- The studio is called **XmashaX Studio**.
+- The only name used anywhere on the site is **xmasha**. Never add a legal or full name to any page, metadata, alt text, comment, or commit message.
+- The studio is called **xmasha Studio**.
 - Do not copy code, copy text, imagery, or typefaces from other people's websites. Layout patterns and motion ideas are fine as inspiration; the implementation and content must be original.
 
 ## Working style

@@ -1,6 +1,6 @@
-# XmashaX
+# xmasha
 
-Portfolio site for XmashaX: aerial and fire performer, character artist, and maker.
+Portfolio site for xmasha: aerial and fire performer, character artist, and maker.
 
 Plain HTML, CSS, and JavaScript. No build step.
 
