@@ -24,14 +24,14 @@ Then open http://localhost:8000.
 
 `style.css` and `app.js` are shared by every page.
 
+The `assets/` folder holds the logo, favicon, and apple-touch-icon.
+
 ## Change the brand one piece at a time
 
 All brand decisions are in the `:root` block at the top of `style.css`: fonts, colors, name size, spacing, corner radius, and easing. Change one value, refresh, and see what it does.
 
 ## Things to replace before launch
 
-- `bookings@yourdomain.com` (appears in every page footer and on `contact.html`)
-- Instagram, YouTube, and TikTok links (`href="#"`)
 - Every "Photo goes here" placeholder
 - The second paragraph on `about.html`
 - The intro sentence on each discipline page (these are drafts)
