@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="XmashaX: aerial and fire performer, character artist, and maker.">
+<title>XmashaX | Aerial, Fire and Character Artist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<noscript><style>.curtain,.loader{display:none}</style></noscript>
+</head>
+<body data-page="home">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="mk" viewBox="0 0 200 230">
+    <circle cx="100" cy="138" r="56" fill="none" stroke="#F28C28" stroke-width="7" stroke-dasharray="300 52" stroke-linecap="round" transform="rotate(-60 100 138)"/>
+    <path d="M 50 214 C 78 170 66 110 100 28" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 150 214 C 122 170 134 110 100 28" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 80 96 L 100 170 L 120 96" fill="none" stroke="#E6A0AF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>
+
+<!-- LOADER: greetings cycle on the first visit to Home, then the curtain lifts -->
+<div class="loader" id="loader">
+  <div class="word"><i class="dot"></i>Hello</div>
+  <div class="word"><i class="dot"></i>Hola</div>
+  <div class="word"><i class="dot"></i>Привет</div>
+  <div class="word"><i class="dot"></i>Bonjour</div>
+  <div class="word"><i class="dot"></i>Ciao</div>
+</div>
+<div class="curtain" id="curtain"><span class="dot"></span>XmashaX</div>
+
+<nav id="nav">
+  <a class="brand" href="index.html" aria-label="XmashaX, home">
+    <svg class="mk" width="30" height="34"><use href="#mk"/></svg>
+    <span class="roll"><span>XmashaX</span><span>XmashaX</span></span>
+  </a>
+  <div class="links">
+    <a class="roll" href="work.html"><span>Work</span><span>Work</span></a>
+    <a class="roll" href="about.html"><span>About</span><span>About</span></a>
+    <a class="roll" href="contact.html"><span>Book</span><span>Book</span></a>
+  </div>
+</nav>
+
+<main>
+  <section class="hero" data-dark>
+    <div class="badge">
+      <div>Based in<br>Miami, FL</div>
+      <div class="globe"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1D2F6F" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></div>
+    </div>
+    <div class="hero-tag">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 2l11 11M13 5v8H5"/></svg>
+      Aerial and fire performer,<br>character artist, maker.
+    </div>
+    <div class="hero-photo">Hero photo<br>goes here</div>
+    <h1 class="hero-name" id="name" aria-label="XmashaX"><span class="line"><span>XmashaX</span></span></h1>
+  </section>
+
+  <section class="statement">
+    <small>About</small>
+    <div>
+      <p id="statement">I am an aerial and fire performer, character artist, and maker. I bring spectacle to any room, from family parties to festival stages, and I build the costumes, props, and decor to match.</p>
+      <div class="pills" aria-label="Events">
+        <span>Family and daytime</span><span>Glam and corporate</span><span>Festivals and fire</span><span>Nightlife</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="work">
+    <div class="work-head"><h2>What I do</h2><h2>04 disciplines</h2></div>
+    <div class="grid">
+<a class="card reveal" href="aerial.html" data-label="View"><div class="thumb"><div class="art a1">01<em>Photo goes here</em></div></div><div class="meta"><span>Aerial</span><span>Lyra, silks, hammock, chains, pole, flying pole, straps</span></div></a>
+<a class="card reveal" href="fire.html" data-label="View"><div class="thumb"><div class="art a2">02<em>Photo goes here</em></div></div><div class="meta"><span>Fire</span><span>Fire eating, poi, flamethrower</span></div></a>
+<a class="card reveal" href="character.html" data-label="View"><div class="thumb"><div class="art a3">03<em>Photo goes here</em></div></div><div class="meta"><span>Character</span><span>Character work and costume shows</span></div></a>
+<a class="card reveal" href="studio.html" data-label="View"><div class="thumb"><div class="art a4">04<em>Photo goes here</em></div></div><div class="meta"><span>XmashaX Studio</span><span>Costumes, props, sculpture, venue decor</span></div></a>
+    </div>
+  </section>
+  <div class="more"><a class="pill" href="work.html">See every act</a></div>
+</main>
+
+<footer data-dark>
+  <svg class="mk foot-mark" width="44" height="50" aria-hidden="true"><use href="#mk"/></svg>
+  <div class="cta">Let's make your<br>event <a href="mailto:bookings@yourdomain.com">unforgettable</a></div>
+  <p class="studio">Costumes, props, sculpture, and venue decor are made through XmashaX Studio.</p>
+  <div class="row">
+    <span>bookings@yourdomain.com</span>
+    <span><a href="#" target="_blank" rel="noopener">Instagram</a> &nbsp; <a href="#" target="_blank" rel="noopener">YouTube</a> &nbsp; <a href="#" target="_blank" rel="noopener">TikTok</a></span>
+    <span>Miami, FL <span id="clock"></span></span>
+    <span>&copy; 2026 XmashaX</span>
+  </div>
+</footer>
+
+<div class="cursor" id="cursor">View</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

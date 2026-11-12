@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="XmashaX Studio by XmashaX: Costumes, props, sculpture, venue decor.">
+<title>XmashaX Studio | XmashaX</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<noscript><style>.curtain,.loader{display:none}</style></noscript>
+</head>
+<body data-page="studio">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="mk" viewBox="0 0 200 230">
+    <circle cx="100" cy="138" r="56" fill="none" stroke="#F28C28" stroke-width="7" stroke-dasharray="300 52" stroke-linecap="round" transform="rotate(-60 100 138)"/>
+    <path d="M 50 214 C 78 170 66 110 100 28" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 150 214 C 122 170 134 110 100 28" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 80 96 L 100 170 L 120 96" fill="none" stroke="#E6A0AF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>
+
+<div class="curtain" id="curtain"><span class="dot"></span>XmashaX</div>
+
+<nav id="nav">
+  <a class="brand" href="index.html" aria-label="XmashaX, home">
+    <svg class="mk" width="30" height="34"><use href="#mk"/></svg>
+    <span class="roll"><span>XmashaX</span><span>XmashaX</span></span>
+  </a>
+  <div class="links">
+    <a class="roll current" href="work.html"><span>Work</span><span>Work</span></a>
+    <a class="roll" href="about.html"><span>About</span><span>About</span></a>
+    <a class="roll" href="contact.html"><span>Book</span><span>Book</span></a>
+  </div>
+</nav>
+
+<main>
+  <header class="page-head"><h1><span class="line"><span>XmashaX Studio</span></span></h1><p>Costumes, props, sculpture, and venue decor, made by hand to match the act or the room.</p></header>
+  <div class="d-hero reveal"><div class="art a4">04<em>Photo or video goes here</em></div></div>
+  <section class="proj-body">
+    <small>Builds</small>
+    <p>Everything is made to order, from a single prop to a full venue installation.</p>
+  </section>
+  <section class="acts"><div class="list">
+<a class="row reveal" href="contact.html"><b>Costumes</b><small>Book this</small><svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 13L13 3M5 3h8v8"/></svg></a>
+<a class="row reveal" href="contact.html"><b>Props</b><small>Book this</small><svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 13L13 3M5 3h8v8"/></svg></a>
+<a class="row reveal" href="contact.html"><b>Sculpture</b><small>Book this</small><svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 13L13 3M5 3h8v8"/></svg></a>
+<a class="row reveal" href="contact.html"><b>Venue decor</b><small>Book this</small><svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 13L13 3M5 3h8v8"/></svg></a>
+  </div></section>
+  <section class="shots">
+    <div class="shot reveal"><div class="art a1"><em>Photo goes here</em></div></div>
+    <div class="shot low reveal"><div class="art a2"><em>Photo goes here</em></div></div>
+  </section>
+  <a class="next" href="aerial.html"><small>Next</small><h3>Aerial</h3></a>
+</main>
+
+<footer data-dark>
+  <svg class="mk foot-mark" width="44" height="50" aria-hidden="true"><use href="#mk"/></svg>
+  <div class="cta">Let's make your<br>event <a href="mailto:bookings@yourdomain.com">unforgettable</a></div>
+  <p class="studio">Costumes, props, sculpture, and venue decor are made through XmashaX Studio.</p>
+  <div class="row">
+    <span>bookings@yourdomain.com</span>
+    <span><a href="#" target="_blank" rel="noopener">Instagram</a> &nbsp; <a href="#" target="_blank" rel="noopener">YouTube</a> &nbsp; <a href="#" target="_blank" rel="noopener">TikTok</a></span>
+    <span>Miami, FL <span id="clock"></span></span>
+    <span>&copy; 2026 XmashaX</span>
+  </div>
+</footer>
+
+<div class="cursor" id="cursor">View</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
