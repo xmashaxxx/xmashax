@@ -4,7 +4,7 @@ This is the portfolio site for **xmasha** (aerial and fire performer, character 
 
 ## Hard rules
 
-- The only name used anywhere on the site is **xmasha**. Never add a legal or full name to any page, metadata, alt text, comment, or commit message.
+- In headers, page titles, and metadata the only name used is **xmasha**. The owner's real name may appear in small places such as credits, the About page, and contact details.
 - The studio is called **xmasha Studio**.
 - Do not copy code, copy text, imagery, or typefaces from other people's websites. Layout patterns and motion ideas are fine as inspiration; the implementation and content must be original.
 
